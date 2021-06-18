@@ -199,7 +199,33 @@ a.in:hover {
 
 .main-img{
     background: url(../img/main-bg.webp) no-repeat;
-    width: 100%;
+    background-size: cover;
+    padding: 60px 0 45px;
+}
+
+.proposition{
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+    font-family: "Roboto Slab";
+}
+
+.mini-info{
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.price{
+    font-size: 40px;
+    color: #fd8300;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Arial";
 }
 
 h1 {
