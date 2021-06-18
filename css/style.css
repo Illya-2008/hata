@@ -1,0 +1,420 @@
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('../fonts/RobotoSlab-Bold.woff2') format('woff2'),
+        url('../fonts/RobotoSlab-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+a{
+    position: relative;
+}
+
+.header-top {
+    padding: 15.5px 0;
+    background-color: #1f1f56;
+}
+
+.header-top ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.header-top li {
+    display: inline-block;
+}
+
+.header-top a {
+    margin: 0 15px;
+}
+
+.top {
+    margin: 0 -15px;
+}
+
+.top-menu {
+    float: left;
+}
+
+.top-menu a {
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #b1b1d2;
+    text-decoration: none;
+}
+
+.top-menu a:hover {
+    color: #fd8300;
+}
+
+.social {
+    float: right;
+}
+
+.social a {
+    display: block;
+    background-image: url(../img/sprite.png);
+    transition: all 0.7s ease;
+}
+
+a.fb {
+    width: 10px;
+    height: 17px;
+    background-position: 0 0;
+}
+
+a.fb:hover {
+    background-position: 0 -22px;
+}
+
+a.tw {
+    width: 15px;
+    height: 19px;
+    background-position: -12px 0;
+}
+
+a.tw:hover {
+    background-position: -12px -19px;
+}
+
+a.in {
+    width: 15px;
+    height: 18px;
+    background-position: -30px 0;
+}
+
+a.in:hover {
+    background-position: -30px -20px;
+}
+
+.logo-img {
+    margin: 30px 40px 9px 0;
+}
+
+.wrapper ul {
+    list-style: none;
+}
+
+.phone-nambers {
+    display: inline-block;
+}
+
+.phone-nambers li {
+    margin: 11px;
+}
+
+.phone-nambers a{
+    font-size: 18px;
+    line-height: 24px;
+    margin-right: 40px;
+    color: #25252c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.phone::before{
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: -25px;
+    width: 17px;
+    height: 17px;
+    background: url(../img/sprite.png) no-repeat -70px 0;
+}
+
+.contact-info {
+    margin-right: 30px;
+    max-width: 17px;
+    display: inline-block;
+}
+
+.contact-info li {
+    margin: 12px;
+}
+
+.mail {
+    font-size: 16px;
+    line-height: 24px;
+    color: #25252c;
+}
+
+.mail::before{
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: -25px;
+    width: 18px;
+    height: 13px;
+    background: url(../img/sprite.png) no-repeat -48px -2px;
+}
+
+.skype {
+    font-size: 16px;
+    line-height: 24px;
+    color: #25252c;
+}
+
+.skype::before{
+    content: "";
+    position: absolute;
+    left: -25px;
+    width: 19px;
+    height: 19px;
+    background: url(../img/sprite.png) no-repeat -48px -20px;
+}
+
+.cta {
+    display: inline-block;
+    color: black;
+    padding: 15px 25px 15px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: #ffffff;
+    border: 2px solid #fd8300;
+}
+
+.cta-block{
+    margin: 50px 10px 0 0;
+    float: right;
+}
+
+.main-img{
+    background: url(../img/main-bg.webp) no-repeat;
+    width: 100%;
+}
+
+h1 {
+    color: #24242b;
+}
+
+.scope {
+    float: left;
+    margin-right: 55px;
+    color: #666666;
+    max-width: 670px;
+}
+
+.detals {
+    font-size: 14px;
+    height: 24px;
+    color: #fd8300;
+    font-weight: bold;
+}
+
+.kategory {
+    display: inline-block;
+    margin-top: 30px;
+    padding-left: 15px;
+    width: 235px;
+    color: #fff;
+    border-radius: 3px;
+    background-color: #1f1f56;
+    font-family: "Roboto Slab";
+}
+
+.main-nav {
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.main-menu{
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav>ul>li+li{
+    border-top: 1px solid #cdcddd;
+}
+
+.main-nav a {
+    position: relative;
+    display: block;
+    padding: 15px;
+    color: #25252c;
+    text-decoration: none;
+    background-color: #e4e4ec;
+    transition: all .80s ease;
+}
+
+.main-nav li:hover a:before{
+    border-color: white;
+    transform: rotate(45deg); 
+}
+
+.main-nav>ul>li>a::before{
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: 18px;
+    width: 7px;
+    height: 7px;
+    border: 1px solid #666;
+    border-left: none;
+    border-top: none;
+    transform: rotate(-45deg);
+    transition: all .80s ease;
+}
+
+.main-nav li:hover>a{
+    color:#fff;
+    background-color: #fd8300;
+}
+
+.main-nav li:hover .sub-menu{
+    display: block;
+}
+
+.sub-menu{
+    display: none;
+}
+
+.sub-menu a{
+    padding-left: 30px;
+    color: #666;
+}
+
+.sub-menu li a:hover{
+    color: #666;
+    background-color: #cecedd;
+}
+
+.line {
+    width: 710px;
+    height: 2px;
+    background-color: #e4e4ec;
+}
+
+figure {
+    margin: 10px 0 50px 10px;
+    display: inline-block;
+}
+
+figcaption p {
+    max-width: 190px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #9999a6;
+    margin-top: 0;
+}
+
+figcaption h3 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #1f1f56;
+    font-weight: bold;
+    margin: 0;
+}
+
+figure img {
+    margin-bottom: 15px;
+}
+
+footer {
+    height: 160px;
+    background-color: #ededf5;
+}
+
+.footer-list{
+    padding-right: 60px;
+    display: inline-block;
+}
+
+.footer-list a {
+    font-size: 14px;
+    line-height: 26px;
+    color: #666666;
+    text-decoration: none;
+}
+
+.footer-list a:hover {
+    color: #fd8300;
+    text-decoration: underline;
+}
+
+.footer-bottom{
+    padding: 15px 0;
+    background-color: #dcdce6;
+}
+
+.footer-bottom p {
+    font-size: 13px;
+    line-height: 18px;
+    color: #9999a6;
+    text-align: center;
+    margin: 0 auto;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 3px;
+    overflow: scroll;
+}
+
+tbody>tr:hover{
+    background-color: #fd8300;
+    color: #fff;
+}
+
+table thead{
+    padding: 20px 0 15px 0;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 700;
+    text-align: left;
+    background-color: #1f1f56;
+}
+
+table tbody{
+    padding: 20px 0 13px 0;
+    text-align: left;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666;
+    background-color: #e4e4ec;
+}
+
+thead>tr>th{
+    padding: 16px 0 14px 20px;
+}
+
+tbody>tr>td{
+    padding: 16px 0 14px 20px;
+    border-top: 1px solid #cdcddd;
+}
+
+thead>tr>th:last-child{
+    text-align: right;
+    padding-right: 20px;
+}
+
+tbody>tr>td:last-child{
+    text-align: right;
+    padding-right: 20px;
+}
