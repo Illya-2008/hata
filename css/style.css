@@ -175,6 +175,7 @@ a.in:hover {
     font-size: 16px;
     line-height: 24px;
     color: #25252c;
+    text-decoration: none;
 }
 
 .skype::before{
@@ -233,7 +234,16 @@ a.in:hover {
 }
 
 h1 {
+    font-size: 30px;
+    line-height: 24px;
     color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+h3:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .scope {
