@@ -24,7 +24,8 @@ body {
 }
 
 .column{
-    max-width: 219px;
+    display: inline-block;
+    max-width: 220px;
 }
 
 a{
@@ -123,13 +124,12 @@ a.in:hover {
 }
 
 .phone-nambers li {
-    margin: 11px;
+    margin: 10px;
 }
 
 .phone-nambers a{
     font-size: 18px;
     line-height: 24px;
-    margin-right: 40px;
     color: #25252c;
     font-weight: bold;
     text-decoration: none;
@@ -146,8 +146,6 @@ a.in:hover {
 }
 
 .contact-info {
-    margin-right: 30px;
-    max-width: 17px;
     display: inline-block;
 }
 
@@ -195,10 +193,16 @@ a.in:hover {
     border-radius: 25px;
     background-color: #ffffff;
     border: 2px solid #fd8300;
+    transition: all 1s ease;
+}
+
+.cta:hover{
+    color: #fff;
+    background-color: #fd8300;
 }
 
 .cta-block{
-    margin: 50px 10px 0 0;
+    margin: 45px 0 0 0;
     float: right;
 }
 
@@ -222,6 +226,7 @@ a.in:hover {
     font-size: 14px;
     color: #ffffff;
     text-align: center;
+    font-family: "Arial";
 }
 
 .price{
@@ -231,6 +236,14 @@ a.in:hover {
     font-weight: bold;
     text-align: center;
     font-family: "Arial";
+}
+
+sup{
+    font-size: 10px;
+}
+
+.big-sup{
+    font-size: 15px;
 }
 
 h1 {
@@ -258,15 +271,19 @@ h3:hover{
     color: #fd8300;
     font-weight: bold;
     margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.detals:hover{
+    text-decoration: underline;
 }
 
 .kategory {
     display: inline-block;
     margin-top: 30px;
     padding-left: 15px;
-    width: 235px;
+    width: 245px;
     color: #fff;
-    border-radius: 3px;
     background-color: #1f1f56;
     font-family: "Roboto Slab";
 }
@@ -292,6 +309,7 @@ h3:hover{
 }
 
 .main-nav a {
+    font-size: 15px;
     position: relative;
     display: block;
     padding: 15px;
@@ -346,6 +364,14 @@ h3:hover{
 .line {
     width: 100%;
     height: 2px;
+    background-color: #e4e4ec;
+}
+
+.vertical-line{
+    margin: 0 5px 0 16px;
+    display: inline-block;
+    width: 2px;
+    height: 50px;
     background-color: #e4e4ec;
 }
 
