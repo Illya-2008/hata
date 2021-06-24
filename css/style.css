@@ -111,10 +111,6 @@ a.in:hover {
     background-position: -30px -20px;
 }
 
-.logo-img {
-    margin: 30px 40px 9px 0;
-}
-
 .wrapper ul {
     list-style: none;
 }
@@ -123,8 +119,8 @@ a.in:hover {
     display: inline-block;
 }
 
-.phone-nambers li {
-    margin: 10px;
+.phone-nambers ul{
+    margin: 0;
 }
 
 .phone-nambers a{
@@ -145,12 +141,21 @@ a.in:hover {
     background: url(../img/sprite.png) no-repeat -70px 0;
 }
 
+.phone:after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 50px;
+    background-color: #ededf5;
+    right: -30px;
+}
+
 .contact-info {
     display: inline-block;
 }
 
-.contact-info li {
-    margin: 12px;
+.contact-info ul{
+    margin: 0;
 }
 
 .mail {
@@ -202,8 +207,13 @@ a.in:hover {
 }
 
 .cta-block{
-    margin: 45px 0 0 0;
-    float: right;
+    display: inline-block;
+}
+
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 30px 0;
 }
 
 .main-img{
@@ -239,11 +249,11 @@ a.in:hover {
 }
 
 sup{
-    font-size: 10px;
+    font-size: 8px;
 }
 
 .big-sup{
-    font-size: 15px;
+    font-size: 20px;
 }
 
 h1 {
@@ -363,15 +373,7 @@ h3:hover{
 
 .line {
     width: 100%;
-    height: 2px;
-    background-color: #e4e4ec;
-}
-
-.vertical-line{
-    margin: 0 5px 0 16px;
-    display: inline-block;
-    width: 2px;
-    height: 50px;
+    height: 1px;
     background-color: #e4e4ec;
 }
 
@@ -414,8 +416,16 @@ footer {
     background-color: #ededf5;
 }
 
+.footer{
+    padding: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
 .footer-list{
-    padding-right: 60px;
+    margin: 0;
+    padding: 0;
     display: inline-block;
 }
 
