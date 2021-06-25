@@ -394,10 +394,10 @@ figure {
 
 figcaption p {
     max-width: 190px;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 18px;
     color: #9999a6;
-    margin-top: 0;
+    margin: 0;
 }
 
 figcaption h3 {
@@ -455,6 +455,10 @@ footer {
     margin: 0 auto;
 }
 
+.block-info{
+    margin: 10px 0 10px 0;
+}
+
 .info{
     margin: 0;
     font-size: 14px;
@@ -473,6 +477,7 @@ table{
 tbody>tr:hover{
     background-color: #fd8300;
     color: #fff;
+    cursor: pointer;
 }
 
 table thead{
