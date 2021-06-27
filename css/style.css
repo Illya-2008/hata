@@ -23,6 +23,7 @@ body {
     max-width: 960px;
 }
 
+
 .column{
     display: inline-block;
     max-width: 220px;
@@ -193,12 +194,15 @@ a.in:hover {
 .cta {
     display: inline-block;
     color: black;
+    font-size: 15px;
     padding: 15px 25px 15px 25px;
     text-decoration: none;
     border-radius: 25px;
     background-color: #ffffff;
     border: 2px solid #fd8300;
     transition: all 0.5s ease;
+    font-weight: bold;
+    font-family: "Arial";
 }
 
 .cta:hover{
@@ -207,7 +211,7 @@ a.in:hover {
 }
 
 .cta-block{
-    display: inline-block;
+    float: right;
 }
 
 .header-bottom{
@@ -270,7 +274,11 @@ h3:hover{
 }
 
 .scope {
+    width: 677px;
+    font-size: 14px;
+    line-height: 24px;
     color: #666666;
+    font-family: "Arial";
 }
 
 .detals {
@@ -290,9 +298,10 @@ h3:hover{
 
 .kategory {
     display: inline-block;
+    border-radius: 3px 3px 0 0;
     margin-top: 30px;
     padding-left: 15px;
-    width: 245px;
+    width: 200px;
     color: #fff;
     background-color: #1f1f56;
     font-family: "Roboto Slab";
@@ -319,7 +328,7 @@ h3:hover{
 }
 
 .main-nav a {
-    font-size: 15px;
+    font-size: 14px;
     position: relative;
     display: block;
     padding: 15px;
@@ -372,7 +381,7 @@ h3:hover{
 }
 
 .line {
-    width: 100%;
+    width: 715px;
     height: 1px;
     background-color: #e4e4ec;
 }
@@ -386,8 +395,15 @@ aside{
     float: right;
 }
 
+.main-projects{
+    width: 715px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
 figure {
-    margin: 10px 10px 50px 0;
+    margin: 0;
     display: inline-block;
 }
 
