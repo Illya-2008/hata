@@ -23,10 +23,22 @@ body {
     max-width: 960px;
 }
 
-
 .column{
+    margin: 10px 14px;
     display: inline-block;
-    max-width: 220px;
+    max-width: 219px;
+}
+
+.house-column{
+    margin: 0;
+    display: inline-block;
+    max-width: 219px;
+}
+
+.footer-column{
+    margin: -10px 14px;
+    display: inline-block;
+    max-width: 219px;
 }
 
 a{
@@ -265,11 +277,13 @@ sup{
 }
 
 h1 {
+    width: 700px;
     font-size: 30px;
     line-height: 24px;
     color: #24242b;
     font-weight: 700;
     font-family: "Roboto Slab";
+    margin: 40px 0 40px 0;
 }
 
 h3:hover{
@@ -406,6 +420,12 @@ h3:hover{
 main{
     max-width: 700px;
     float: left;
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    width: 715px;
 }
 
 aside{
