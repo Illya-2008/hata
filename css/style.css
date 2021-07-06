@@ -132,14 +132,32 @@ a.in:hover {
     list-style: none;
 }
 
+.main-lists{
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone-nambers-list,
 .phone-nambers {
     display: inline-block;
+}
+
+.phone-nambers-list{
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+.phone-nambers-list li:first-child{
+    margin-bottom: 10px;
 }
 
 .phone-nambers ul{
     margin: 0;
 }
 
+.phone-list,
+.phone-nambers-list a,
 .phone-nambers a{
     font-size: 18px;
     line-height: 24px;
@@ -175,6 +193,7 @@ a.in:hover {
     margin: 0;
 }
 
+.mail-list,
 .mail {
     font-size: 16px;
     line-height: 24px;
@@ -230,6 +249,24 @@ a.in:hover {
     float: right;
 }
 
+.ofice{
+    width: 265px;
+    padding: 0;
+}
+
+.advice{
+    width: 300px;
+    margin: 90px 0 0 0;
+    padding: 0;
+}
+
+.audits{
+    width: 270px;
+    margin-top: 90px;
+    padding: 0;
+}
+
+
 .header-bottom{
     display: flex;
     justify-content: space-between;
@@ -277,18 +314,23 @@ sup{
 }
 
 h1 {
-    width: 700px;
     font-size: 30px;
     line-height: 24px;
     color: #24242b;
     font-weight: 700;
     font-family: "Roboto Slab";
     margin: 40px 0 40px 0;
+    display: block;
 }
 
 h3:hover{
     cursor: pointer;
     text-decoration: underline;
+}
+
+.h3{
+    display: inline-block;
+    bottom: 100px;
 }
 
 .scope {
@@ -417,9 +459,25 @@ h3:hover{
     background-color: #e4e4ec;
 }
 
+.line3{
+    width: 960px;
+    height: 2px;
+    margin: 30px 0 30px 0;
+    background-color: #e4e4ec;
+}
+
+.map{
+    margin: 0 30px 40px 0;
+}
+
 main{
     max-width: 700px;
     float: left;
+}
+
+.main-bottom{
+    width: 960px;
+    display: flex;
 }
 
 .section{
