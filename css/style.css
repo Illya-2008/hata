@@ -329,8 +329,13 @@ h3:hover{
 }
 
 .h3{
-    display: inline-block;
+    font-size: 15px;
+    line-height: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
     bottom: 100px;
+    margin: 0;
 }
 
 .scope {
@@ -467,7 +472,7 @@ h3:hover{
 }
 
 .map{
-    margin: 0 30px 40px 0;
+    margin: 0 30px 0 0;
 }
 
 main{
@@ -478,6 +483,66 @@ main{
 .main-bottom{
     width: 960px;
     display: flex;
+    margin-bottom: 40px;
+}
+
+form{
+    width: 487px;
+    height: 300px;
+}
+
+input[type="text" i] {
+    width: 230px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #c5c5d4;
+}
+
+input:first-child[type="text" i] {
+    margin: 10px 10px 10px 0;
+}
+
+
+input.message[type="text" i] {
+    width: 480px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #c5c5d4;
+    display: block;
+    margin-bottom: 10px;
+}
+
+textarea{
+    width: 480px;
+    height: 105px;
+}
+
+input[type="reset"] {
+    font-size: 14px;
+    line-height: 24px;
+    color: black;
+    font-weight: bold;
+    font-family: "Arial";
+    text-align: center;
+    width: 140px;
+    height: 41px;
+    border-radius: 21px;
+    border: 2px solid #fd8300 ;
+    background-color: #fff;
+    margin-top: 10px;
+    transition: all 0.5s ease;
+    float: left;
+}
+
+input:hover[type="reset"] {
+    cursor: pointer;
+    color: #fff;
+    background-color: #fd8300;
+}
+
+input[type="checkbox"] {
+    margin: 25px 0 0 20px;
 }
 
 .section{
